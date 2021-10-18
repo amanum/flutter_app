@@ -40,7 +40,7 @@ class _PageState extends State<AboutClientRegis> {
                       InputWidget().text(
                         Strings.phoneNumber,
                         type: TextInputType.number,
-                        placeholder: '+7(ххх)',
+                        placeholder: '+7(ххх)ххх-хх-хх',
                       ),
                       SizedBox(height: 25),
                       InputWidget().date(
